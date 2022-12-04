@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 0 13% 0 13%;
+}
+
+.header > h1 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.wellcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 5em 13% 8em 13%;
+}
+
+.wellcome > img {
+    width: 900px;
+    height: 280px;
+    margin-left: 50px;
+    background: gray;
+    border : 4px solid white
+}
+
+.context > h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+.button-top {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    border: none;
+}
+
+.image-showcase{
+    padding: 0 15% 5% 15%;
+    min-height: 400px;
+}
+.image-showcase > h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.images {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.image-1 > img, .image-2 > img, .image-3 > img, .image-4 > img{
+    border: 5px solid #3882F6;
+    background: gray;
+    border-radius: 10px;    
+} 
+
+.image-1 > p, .image-2 > p, .image-3 > p, .image-4 > p{
+    color: #1F2937;
+}
+
+.inspiring-quote {
+    background-color: #E5E7EB;
+    padding: 0 15% 0 15%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.bold-author {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: end;
+    margin-top: 40px;
+}
+
+.action-tab {
+    display: flex;
+    background-color: #3882F6;
+    padding: 0em 10% 0em 10%;
+    margin: 10em;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.button-bottom {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    font-size: 18px;
+    border: 2px solid white;
+    padding: 5px 20px 5px 20px;
+}
+
+.bottom-button-div{
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    } 
+a, p {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+    }
